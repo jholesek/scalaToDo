@@ -22,8 +22,29 @@ class Database(val dbFilename: String) {
                 writeToFile(List(record), true)
         }
 
-        def selectAll(): Try[Seq[String]] = ???
-        def delete(index: Int): Try[Int] = ???
+        def selectAll(): Try[Seq[String]] = {
+                var bs: scala.io.BufferedSource = null
+                try {
+                        bs= scala.io.Source.fromFile(dbFilename)
+                        val lines = for(line <- bs.getLines()) yield line
+                        Success(lines.toList)
+                } catch {
+                        case t: Throwable => Failure(t)
+                } finally {
+                        if (bs!=null) bs.close
+                }
+        }
+
+        def delete(index: Int): Try[Int] = {
+                val maybeNumRowsDeleted = for {
+                        rows <- selectAll()
+                        newRows = rows.drop(index)
+                        numRowsDeleted = rows.size - newRows.size
+                        _ <- writeToFile(newRows, false)
+                } yield numRowsDeleted
+                maybeNumRowsDeleted
+        }
+
 
 }
 
