@@ -5,7 +5,7 @@ import scala.util.{Try, Success, Failure}
 class InputProcessor(db: Database) {
 
         def handleView(): Try[Unit] = Try {
-                val res=db.selectAll()
+                val res: Try[Seq[String]] =db.selectAll()
                 res match {
                         case Success(tasks) =>
                                 for((task, count) <- tasks.zip(Stream from 1))
