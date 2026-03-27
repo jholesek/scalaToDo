@@ -1,5 +1,4 @@
 import IOHelper._
-import Database._
 import scala.util.{Try, Success, Failure}
 
 class InputProcessor(db: Database) {
