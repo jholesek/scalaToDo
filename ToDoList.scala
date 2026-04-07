@@ -1,5 +1,5 @@
 import IOHelper._
-import InputHelper._
+import InputProcessor._
 import scala.util.{Try, Success, Failure}
 
 object ToDoList {

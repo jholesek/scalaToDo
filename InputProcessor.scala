@@ -19,6 +19,17 @@ class InputProcessor(db: Database) {
                 db.insert(task)
         }
 
+        def handleDelete(index: String): Try[Unit] = Try {
+                val taskId: Int = index.toInt
+                val res: Try[Int] = db.delete(taskId-1)
+                res match {
+                        case Success(numRowsDeleted) => 
+                                System.out.println(s"Deleted $index task, ${numRowsDeleted} rows")
+
+                        case Failure(e) => System.err.println(e)
+                }
+        }
+
 
         def handleInput(input: String): Try[Unit] = input match {
                 case "q" =>
@@ -31,7 +42,8 @@ class InputProcessor(db: Database) {
                         handleAdd(add.drop(2))
                         handleView()
                 case del if del.startsWith("d ") =>
-                        ???
+                        handleDelete(del.drop(2))
+                        handleView()
                 case _ => ???
 
                 // println("handle: $s",input)
