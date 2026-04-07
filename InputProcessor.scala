@@ -24,10 +24,14 @@ class InputProcessor(db: Database) {
                 val res: Try[Int] = db.delete(taskId-1)
                 res match {
                         case Success(numRowsDeleted) => 
-                                System.out.println(s"Deleted $index task, ${numRowsDeleted} rows")
+                                System.out.println(s"Deleted $index task, ${numRowsDeleted} rows\n")
 
                         case Failure(e) => System.err.println(e)
                 }
+        }
+
+        def handleOther(): Try[Unit] = Try {
+                System.err.println("Unknown command ...\n")
         }
 
 
@@ -44,7 +48,9 @@ class InputProcessor(db: Database) {
                 case del if del.startsWith("d ") =>
                         handleDelete(del.drop(2))
                         handleView()
-                case _ => ???
+                case _ => 
+                        handleOther()
+                        handleView()
 
                 // println("handle: $s",input)
         }
