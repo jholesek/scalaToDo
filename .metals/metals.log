@@ -1,0 +1,145 @@
+2026.04.10 20:06:07 INFO  Started: Metals version 1.6.7 in folders '/Users/jakobholesek/Documents/langs/scalaToDo' for client Visual Studio Code 1.109.5.[0m
+2026.04.10 20:06:07 INFO  Memory monitor started[0m
+2026.04.10 20:06:07 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.04.10 20:06:07 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+Apr 10, 2026 8:06:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.04.10 20:06:10 INFO  Running List(/opt/homebrew/bin/scala-cli, setup-ide, /Users/jakobholesek/Documents/langs/scalaToDo)[0m
+2026.04.10 20:06:10 INFO  Attempting to connect to the build server...[0m
+2026.04.10 20:06:10 INFO  Running BSP server List(/opt/homebrew/bin/scala-cli, bsp, --json-options, /Users/jakobholesek/Documents/langs/scalaToDo/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/jakobholesek/Documents/langs/scalaToDo/.scala-build/ide-launcher-options.json, --envs-file, /Users/jakobholesek/Documents/langs/scalaToDo/.scala-build/ide-envs.json, /Users/jakobholesek/Documents/langs/scalaToDo)[0m
+2026.04.10 20:06:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakobholesek/Documents/langs/scalaToDo/.metals/bsp.trace.json or /Users/jakobholesek/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.04.10 20:06:11 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom[0m
+2026.04.10 20:06:11 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom[0m
+2026.04.10 20:06:11 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom.sha1[0m
+2026.04.10 20:06:13 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom.sha1[0m
+2026.04.10 20:06:13 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom[0m
+2026.04.10 20:06:13 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom[0m
+2026.04.10 20:06:13 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom[0m
+2026.04.10 20:06:13 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom[0m
+2026.04.10 20:06:13 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom[0m
+2026.04.10 20:06:14 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom[0m
+2026.04.10 20:06:14 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom[0m
+2026.04.10 20:06:14 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom[0m
+2026.04.10 20:06:14 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom.sha1[0m
+2026.04.10 20:06:14 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom.sha1[0m
+2026.04.10 20:06:14 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom.sha1[0m
+2026.04.10 20:06:14 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom.sha1[0m
+2026.04.10 20:06:14 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom.sha1[0m
+2026.04.10 20:06:14 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom[0m
+2026.04.10 20:06:14 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom[0m
+2026.04.10 20:06:14 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom.sha1[0m
+2026.04.10 20:06:14 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom[0m
+2026.04.10 20:06:14 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom[0m
+2026.04.10 20:06:15 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom[0m
+2026.04.10 20:06:15 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom[0m
+2026.04.10 20:06:15 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom.sha1[0m
+2026.04.10 20:06:15 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom.sha1[0m
+2026.04.10 20:06:15 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom[0m
+2026.04.10 20:06:15 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom[0m
+2026.04.10 20:06:15 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom.sha1[0m
+2026.04.10 20:06:17 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom.sha1[0m
+2026.04.10 20:06:17 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom[0m
+2026.04.10 20:06:17 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom[0m
+2026.04.10 20:06:17 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom.sha1[0m
+2026.04.10 20:06:17 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom.sha1[0m
+2026.04.10 20:06:17 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom[0m
+2026.04.10 20:06:17 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom[0m
+2026.04.10 20:06:17 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom[0m
+2026.04.10 20:06:18 WARN  no build target for: /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala[0m
+2026.04.10 20:06:18 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:18 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:18 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:18 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:18 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom[0m
+2026.04.10 20:06:18 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom[0m
+2026.04.10 20:06:18 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom[0m
+2026.04.10 20:06:18 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom.sha1[0m
+2026.04.10 20:06:18 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom.sha1[0m
+2026.04.10 20:06:18 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom.sha1[0m
+2026.04.10 20:06:18 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom.sha1[0m
+2026.04.10 20:06:18 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom.sha1[0m
+2026.04.10 20:06:18 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom.sha1[0m
+2026.04.10 20:06:18 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom[0m
+2026.04.10 20:06:18 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom[0m
+2026.04.10 20:06:18 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom.sha1[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom.sha1[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom.sha1[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom.sha1[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom.sha1[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom.sha1[0m
+2026.04.10 20:06:19 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom[0m
+2026.04.10 20:06:20 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:20 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom[0m
+2026.04.10 20:06:20 INFO  BSP server: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom.sha1[0m
+2026.04.10 20:06:20 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:20 INFO  BSP server: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom.sha1[0m
+2026.04.10 20:06:20 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom[0m
+2026.04.10 20:06:20 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom[0m
+2026.04.10 20:06:20 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom.sha1[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom.sha1[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.jar.sha1[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.jar[0m
+2026.04.10 20:06:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.jar.sha1[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.jar.sha1[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.jar.sha1[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.jar.sha1[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.jar.sha1[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.jar[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.jar.sha1[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.jar.sha1[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.jar.sha1[0m
+2026.04.10 20:06:22 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.jar.sha1[0m
+2026.04.10 20:06:24 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.jar[0m
+2026.04.10 20:06:24 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.jar.sha1[0m
+2026.04.10 20:06:24 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.jar.sha1[0m
+2026.04.10 20:06:25 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.jar[0m
+2026.04.10 20:06:25 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.jar.sha1[0m
+2026.04.10 20:06:25 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.jar.sha1[0m
+2026.04.10 20:06:26 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:26 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:26 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:27 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.jar[0m
+2026.04.10 20:06:27 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.jar.sha1[0m
+2026.04.10 20:06:27 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.jar.sha1[0m
+2026.04.10 20:06:27 INFO  BSP server: Starting compilation server[0m
+2026.04.10 20:06:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2-sources.jar[0m
+2026.04.10 20:06:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2-sources.jar[0m
+2026.04.10 20:06:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2-sources.jar[0m
+2026.04.10 20:06:28 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2-sources.jar[0m
+2026.04.10 20:06:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom[0m
+2026.04.10 20:06:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom[0m
+2026.04.10 20:06:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar[0m
+2026.04.10 20:06:28 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:28 INFO  no build target found for /Users/jakobholesek/Documents/langs/scalaToDo/ToDoList.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.10 20:06:29 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar[0m
+2026.04.10 20:06:29 INFO  time: Connected to build server in 18s[0m
+2026.04.10 20:06:29 INFO  Connected to Build server: scala-cli v1.12.4[0m
+2026.04.10 20:06:29 INFO  compiling scalatodo_1ee13aee25 (4 scala sources)[0m
+2026.04.10 20:06:32 WARN  there was 1 deprecation warning; re-run with -deprecation for details[0m
+2026.04.10 20:06:32 INFO  time: compiled scalaToDo_1ee13aee25 in 2.35s[0m
+2026.04.10 20:06:33 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.04.10 20:06:33 INFO  time: indexed workspace in 3.91s[0m
+2026.04.10 20:24:03 INFO  compiling scalatodo_1ee13aee25 (1 scala source)[0m
+2026.04.10 20:24:03 INFO  time: compiled scalaToDo_1ee13aee25 in 0.64s[0m
+Apr 10, 2026 8:24:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 10, 2026 8:24:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 10, 2026 8:28:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

@@ -38,7 +38,7 @@ class Database(val dbFilename: String) {
         def delete(index: Int): Try[Int] = {
                 val maybeNumRowsDeleted = for {
                         rows <- selectAll()
-                        newRows = rows.drop(index)
+                        newRows = rows.patch(index,Nil,1)
                         numRowsDeleted = rows.size - newRows.size
                         _ <- writeToFile(newRows, false)
                 } yield numRowsDeleted
