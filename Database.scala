@@ -10,7 +10,7 @@ class Database(val dbFilename: String) {
                         for(line <- lines) {
                                 bw.write(s"$line\n")
                         }
-                        Success(true)
+                        Success(())
                 } catch {
                         case e: Throwable => Failure(e)
                 } finally {

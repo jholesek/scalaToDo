@@ -143,3 +143,5 @@ Apr 10, 2026 8:24:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 Apr 10, 2026 8:28:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2026.04.10 20:31:59 INFO  compiling scalatodo_1ee13aee25 (1 scala source)[0m
+2026.04.10 20:31:59 INFO  time: compiled scalaToDo_1ee13aee25 in 0.61s[0m
